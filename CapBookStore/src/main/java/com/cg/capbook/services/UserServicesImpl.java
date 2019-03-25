@@ -118,6 +118,5 @@ public class UserServicesImpl implements UserServices
 		byte[] bytes = imageFile.getBytes();
 		Path path = Paths.get(folder + imageFile.getOriginalFilename());
 		Files.write(path,bytes);
-		
-	}
+		}
 	}
